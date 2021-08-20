@@ -1,0 +1,21 @@
+@import "./variables.scss";
+
+.counterContainer {
+    display: flex;
+}
+
+.button {
+    background-color: $secondary-color;
+    color: $text-color;
+    border-color: $accent-color;
+    border-radius: 0.5em;
+    width: 3em;
+    height: 3em;
+    margin: 1em;
+}
+
+.margin {
+    margin: 1em;
+    display: flex;
+    align-items: center;
+}
